@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Piedra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: "Tenali Ramakrishna";
+  color:#777;
+}
+
+head,body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-header{
+
+  background-color: rgba(0, 0, 0, 0.602);
+  background-image:url(./Imagenes/prueba-encabezado1.jpg);
+  background-blend-mode:multiply;
+  background-size: cover;
+  padding-bottom: 20px;
+
+}
+.nav ul{
+  margin: 0;
+  padding: auto;
+}
+
+.nav li{
+  display:inline-flex;
+}
+.nav a{
+  display: inline-block;
+  padding: 1em;
+  color: rgb(240, 255, 255);
+  text-decoration:none;
+  font-size:x-large;
+}
+.nav a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration:underline;
+  color: rgb(122, 255, 255);
+}
+.nav p{
+  display: inline-block;
+  padding: 1em;
+  color: rgb(240, 255, 255);
+  text-decoration:none;
+  font-size:x-large;
+ 
+}
+.nav p:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  color: rgb(122, 255, 255);
+  text-decoration:underline;
+}
+.main-nav{
+
+  text-align:center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgb(255,255,255,0.3);
+
+}
+.nombre{
+  text-align: center;
+  margin: 0.5em;
+  font-family:"Dancing Script";
+  font-weight: normal;
+}
+.nombre-principal{
+font-size: 4em;
+color: azure;
+}
+.nombre-principal:hover{
+  color: aquamarine;
+}
+.main-nav li{
+  padding: 0 5;
+
+}
+
+/*Estilos Section*/
+
+.content-section{
+  margin: 1em;
+}
+.conteiner{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+  font-size: larger;
+}
+.section-header{
+  font-family:"Tenali Ramakrishna" ;
+  font-size:xx-large;
+  color:#333;
+}
+.imagen-personal{
+display: block;
+width: 300px;
+margin-left: auto;
+margin-right: auto;
+
+border-radius: 50%;
+}
+.main-footer{
+  background-color: rgba(0,0, 0,.6);
+  background-image:url(./Imagenes/prueba-encabezado1.jpg);
+  background-blend-mode:multiply;
+  background-size: cover;
+  padding-bottom: 20px;
+
+}
+
+.main-footer-conteiner{
+    display: flex;
+    align-items: center;
+}
+  
+
+  
+.main-footer-conteiner h3{
+    color: rgb(255, 239, 239);
+    font-weight: bold;
+}
+  
+  
+.main-footer-conteiner ul{
+    flex-grow: 1;
+    text-align: end;
+ 
+}
+  
+
+.footer-nav li{
+    padding: 0 5%;
+  }
+.footer-nav img{
+
+    width: 50px;
+  }
+
+  /* ----ESTILOS SECTION CURSOS */
+  
+.pricing{
+    display: flex;
+    justify-content: center;
+    background:rgb(255, 255, 255);
+    font-family: Dancing Script;
+    text-align: center;
+   
+  }
+.precio{
+    position: relative;
+  }
+.dolar{
+    position: absolute;
+    left: 15px;
+    color: #ccc;
+    font-size: 30px;
+
+  }
+.numero{
+    font-size: 80px;
+    color: rgb(255, 145, 182);
+  }
+.periodo{
+    color: #ccc;
+    font-size: 30px;
+  }
+ .tabla{
+    background: rgba(0, 46, 68, 0.561);
+    padding: 40px;
+    margin-top: 350px;
+    margin-bottom: 300px;
+    font-family: Poppins;
+    
+    }
+.caracts{
+  font-size: 18px;
+  color:#fff;
+  font-family: Poppins;
+}
+.tabla a{
+  background: violet;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 22px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.tabla a:hover{
+
+  background:aquamarine;
+  color: #000;
+
+}
+.numero2{
+  color: rgb(221, 170, 255);
+}
+.numero3{
+  color: rgb(255, 0, 0) 
+}
+
+.cuadradosuperior{
+  width: 336px;
+  height: 40px;
+  background:rgb(0, 46, 68, 0.561);
+  position: absolute;
+  top: -40px;
+  left:0;
+  box-shadow: -1px 4px 5px rgba(88, 88, 88);
+}
+
+.cuadradoinferior{
+  width: 336px;
+  height: 40px;
+  background:rgb(0, 46, 68, 0.561);
+  position: absolute;
+  bottom: -40px;
+  left:0;
+  box-shadow: 1px 4px 5px rgb(88, 88, 88);
+}
+.caracts p {
+  font-family: Poppins;
+  color: #000;
+}
+#tabla_dos{
+position: relative;
+box-shadow: 1px 1px 12px rgb(88, 88, 88);
+  
+}
+.tabla h4{
+  font-family: Poppins;
+  font-size: 20px;
+  color: #000;
+  font-style: italic;
+}
+
+/*contactos*/
+#section_contactos{
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.text-center{
+  text-align: center;
+  font-size: large;
+}
+
+.conteiner h1{
+  text-align: center;
+}
+.formulario{
+  text-align: center;
+}
+.row text-center {
+  text-align: center;
+}
+
+.msj{
+  text-align: center;
+  margin: 0.5em;
+  font-family:"Tenali Ramakrishna";
+  font-weight: normal
+}
+
+.mensaje-secundario{
+  color: rgb(33, 51, 51);
+}
+
+.mensaje-secundario:hover{
+color:rgb(235, 107, 91);
+}
+
+
+
+
+
+
+:root{
+    --main-bg-color: rgb(41, 80, 109);
+    --main-bg-color-a: rgba(4, 32, 55, 0.7);
+    --icon-color: rgb(4, 32, 55);
+    --ejemplo: #8bae60;
+}
+
+head, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: "Yanone Kaffeesatz"; */
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+
+.separadores_hr{
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.separador_final{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.formulario label{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.formulario input{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+
+   width: 500px;
+}
+
+.titulo_listado{
+    margin: 0;
+}
+
+.titulos{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.boton-borrar{
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.boton-update{
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.elementos_listado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+.section-body{
+  text-align: center;
+}
+
+/* Estilos Calculadora de intereses */
+
+  .containerInteres{
+      background-color: #0b393f;
+      width: 80%;
+      margin: 0px auto;
+      margin-top: 100px;
+      padding: 20px ;
+      border: 1px solid gray;
+      color: aliceblue;
+      border-radius: 8px;
+      box-shadow: 0px 0px 8px;
+  }
+  
+  .tituloForm{
+      margin: 0px;
+      text-align: center;
+      margin-bottom: 10px;
+      color: aliceblue;
+  }
+  
+  .formulario{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  
+  .cajas{
+      display: flex;
+      margin: 5px 0px;
+  }
+  
+  .cajas label {
+      flex-basis: 80px;
+      color: #ffffff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .cajas input {
+      flex: 1;
+      padding: 5px;
+      color: white;
+  }
+  
+  .cajas input:focus{
+      outline: none;
+  }
+  
+  .botones{
+      background-color: rgb(48, 144, 161);
+      color: #fff;    
+      border:  none;
+      padding: 6px;  
+      margin-top: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all case 300ms;
+  }
+  
+  .botones:hover{
+      background-color: #178b72;
+      color: #000;
+  }
+  
+.resultadoCalculadora{
+  text-align: center;
+}
+  
